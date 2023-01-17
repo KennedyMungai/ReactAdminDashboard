@@ -1,11 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import app from './app'
 
-const index = () =>
-{
-    return (
-        <div>index</div>
-    )
-}
 
-export default index
+
+ReactDOM.render
