@@ -32,6 +32,12 @@ const App = () =>
                             width 0 sidebar
                         </div>
                     )}
+
+                    <div className={
+                        activeMenu ? 'dark:bg-main-bg bg-main-bg min-h-screen md: ml-72 w-full' : 'dark:bg-main-bg bg-main-bg min-h-screen flex-2 w-full'
+                    }>
+
+                    </div>
                 </div>
             </BrowserRouter >
         </div >
