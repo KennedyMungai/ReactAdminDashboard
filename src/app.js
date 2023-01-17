@@ -7,6 +7,8 @@ import './App.css'
 
 const App = () =>
 {
+    const activeMenu = true
+
     return (
         <div>
             <BrowserRouter>
