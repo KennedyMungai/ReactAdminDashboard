@@ -28,7 +28,7 @@ const App = () =>
                             Sidebar
                         </div>
                     ) : (
-                        <div className="">
+                        <div className="w-0 dark: bg-secondary-dark-bg">
                             width 0 sidebar
                         </div>
                     )}
