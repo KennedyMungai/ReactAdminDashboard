@@ -5,6 +5,12 @@
     }
   ],
   "settings": {
-    "cSpell.words": ["kanban", "richtexteditor", "syncfusion", "tailwindcss"]
+    "cSpell.words": [
+      "craco",
+      "kanban",
+      "richtexteditor",
+      "syncfusion",
+      "tailwindcss"
+    ]
   }
 }
