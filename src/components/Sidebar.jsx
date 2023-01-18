@@ -21,10 +21,19 @@ const Sidebar = () =>
                         >
                             <SiShopware className='text-3xl' /> <span>Shopper</span>
                         </Link>
+                        <TooltipComponent
+                            content="Menu"
+                            position="BottomCenter"
+                        >
+                            <button type="button" onClick={() => { }} className='text-xl rounded-full p-3 hover: bg-light-gray mt-4 block md: hidden'>
+                                <MdOutlineCancel />
+                            </button>
+                        </TooltipComponent>
                     </div>
                 </>
-            )}
-        </div>
+            )
+            }
+        </div >
     )
 }
 
