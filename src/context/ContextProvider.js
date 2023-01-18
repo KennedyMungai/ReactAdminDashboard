@@ -9,3 +9,8 @@ const initialState = {
     userProfile: false,
     notifications: false
 }
+
+export const ContextProvider = ({ children }) => 
+{
+
+}
