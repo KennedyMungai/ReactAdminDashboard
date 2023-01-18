@@ -7,6 +7,7 @@ import { MdKeyboardArrowDown } from 'react-icons/md'
 import { RiNotification3Line } from 'react-icons/ri'
 import avatar from '../data/avatar.jpg'
 import { Cart, Chat, Notifications, UserProfile } from '.'
+import { useStateContext } from '../context/ContextProvider'
 
 
 const Navbar = () =>
