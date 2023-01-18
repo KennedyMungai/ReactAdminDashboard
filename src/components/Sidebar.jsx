@@ -23,8 +23,7 @@ const Sidebar = () =>
                         </Link>
                     </div>
                 </>
-            )
-            }
+            )}
         </div>
     )
 }
