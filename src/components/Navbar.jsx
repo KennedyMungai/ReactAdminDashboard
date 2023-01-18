@@ -9,6 +9,14 @@ import avatar from '../data/avatar.jpg'
 import { Cart, Chat, Notifications, UserProfile } from '.'
 import { useStateContext } from '../context/ContextProvider'
 
+const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
+    <TooltipComponent
+        content={title}
+        position="BottomCenter"
+    >
+        <button></button>
+    </TooltipComponent>
+)
 
 const Navbar = () =>
 {
