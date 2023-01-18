@@ -17,7 +17,7 @@ const Sidebar = () =>
                         <Link
                             to='/'
                             onClick={() => { }}
-                            className='items-center'
+                            className='items-center gap-3 ml-3 mt-4 flex text-xl font-extrabold'
                         >
                             <SiShopware className='text-3xl' /> <span>Shopper</span>
                         </Link>
