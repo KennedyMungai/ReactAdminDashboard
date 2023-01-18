@@ -19,7 +19,9 @@ export const ContextProvider = ({ children }) =>
         <StateContext.Provider
             value={{
                 activeMenu,
-                setActiveMenu
+                setActiveMenu,
+                isClicked,
+                setIsClicked
             }}
         >
             {children}
