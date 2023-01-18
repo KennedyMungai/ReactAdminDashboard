@@ -46,7 +46,20 @@ const Navbar = () =>
         {
             window.removeEventListener('resize', handleResize)
         }
-    }, [third])
+    }, [])
+
+    useEffect(() =>
+    {
+        if (screenSize <= 900)
+        {
+            setActiveMenu(false)
+        }
+        else
+        {
+            setActiveMenu(true)
+        }
+    }, [screenSize])
+
 
 
     return (
