@@ -17,7 +17,7 @@ export const ContextProvider = ({ children }) =>
 
     const handleClick = (clickedElement) => 
     {
-setIsClicked({...initialState, [clickedElement] : true})            
+        setIsClicked({ ...initialState, [clickedElement]: true })
     }
 
     return (
@@ -26,7 +26,8 @@ setIsClicked({...initialState, [clickedElement] : true})
                 activeMenu,
                 setActiveMenu,
                 isClicked,
-                setIsClicked
+                setIsClicked,
+                handleClick
             }}
         >
             {children}
