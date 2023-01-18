@@ -1,3 +1,4 @@
+import { TooltipComponent } from '@syncfusion/ej2-react-popups'
 import React, { useEffect } from 'react'
 import { AiOutlineMenu } from 'react-icons/ai'
 import { BsChatLeft } from 'react-icons/bs'
