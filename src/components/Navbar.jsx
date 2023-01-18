@@ -5,7 +5,7 @@ import { BsChatLeft } from 'react-icons/bs'
 import { FiShoppingCart } from 'react-icons/fi'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 import { RiNotification3Line } from 'react-icons/ri'
-
+import avatar from '../data/avatar.jpg'
 
 const Navbar = () =>
 {
