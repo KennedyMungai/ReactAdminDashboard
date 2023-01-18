@@ -1,7 +1,7 @@
 import react, { createContext, useContext, useState } from 'react'
 
 
-const stateContext = createContext()
+const StateContext = createContext()
 
 const initialState = {
     chat: false,
@@ -12,5 +12,11 @@ const initialState = {
 
 export const ContextProvider = ({ children }) => 
 {
-
+    return (
+        <StateContext.Provider
+            value={{ test: 'test' }}
+        >
+            {children}
+        </StateContext.Provider>
+    )
 }
