@@ -81,6 +81,11 @@ const Navbar = () =>
                         <MdKeyboardArrowDown className='text-gray-400 text-14' />
                     </div>
                 </TooltipComponent>
+
+                {isClicked.Cart && <Cart />}
+                {isClicked.Chat && <Chat />}
+                {isClicked.Notifications && <Notifications />}
+                {isClicked.UserProfile && <UserProfile />}
             </div>
         </div >
     )
