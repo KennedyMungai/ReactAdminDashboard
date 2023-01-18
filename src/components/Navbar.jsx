@@ -12,6 +12,8 @@ import { useStateContext } from '../context/ContextProvider'
 
 const Navbar = () =>
 {
+    const { activeMenu, setActiveMenu } = useStateContext()
+
     return (
         <div>Navbar</div>
     )
