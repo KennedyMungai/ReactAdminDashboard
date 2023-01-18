@@ -19,7 +19,7 @@ const Sidebar = () =>
                             onClick={() => { }}
                             className='items-center'
                         >
-                            <SiShopware className='text-3xl' /> <span>Shopping App</span>
+                            <SiShopware className='text-3xl' /> <span>Shopper</span>
                         </Link>
                     </div>
                 </>
