@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import { AiOutlineMenu } from 'react-icons/ai'
 import { BsChatLeft } from 'react-icons/bs'
 import { FiShoppingCart } from 'react-icons/fi'
-import { MdKeyboardArrowDown } from 'react-icons/md'
+import { MdArrowDown } from 'react-icons/md'
 import { RiNotification3Line } from 'react-icons/ri'
 import avatar from '../data/avatar.jpg'
 import { Cart, Chat, Notifications, UserProfile } from '.'
@@ -78,6 +78,7 @@ const Navbar = () =>
                             <span className='text-gray-400 text-14'>Hi, </span>{' '}
                             <span className='text-gray-400 font-bold ml-1 text-14'>Michael</span>
                         </p>
+                        <MdArrowDown className='text-gray-400 text-14' />
                     </div>
                 </TooltipComponent>
             </div>
