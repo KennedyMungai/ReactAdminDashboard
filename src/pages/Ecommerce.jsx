@@ -41,6 +41,9 @@ const Ecommerce = () =>
                                 <span className="text-lg font-semibold">
                                     {item.amount}
                                 </span>
+                                <span className={`text-sm text-${item.pcColor}`}>
+
+                                </span>
                             </p>
                         </div>
                     })}
